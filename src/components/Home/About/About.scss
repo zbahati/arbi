@@ -1,0 +1,38 @@
+.achievement{
+
+  .charts{
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+    .chart {
+      width: 30%;
+      padding: 10px;
+      background-color: aliceblue;
+
+      .circular {
+        width: 20%;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .achievement{
+
+    .charts{
+      display: flex;
+      flex-direction: column;
+      .chart {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        background-color: aliceblue;
+      }
+    }
+  }
+}
